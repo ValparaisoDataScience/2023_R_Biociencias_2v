@@ -1,0 +1,124 @@
+---
+title: "Curso Análisis de datos con R para Biociencias"
+subtitle: 'Presentación Curso'
+author: Dr. José Gallardo Matus | https://genomics.pucv.cl/
+institute: Pontificia Universidad Católica de Valparaíso 
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  beamer_presentation:
+    theme: "Malmoe"
+    colortheme: "beaver"
+    fonttheme: "structurebold"
+    includes:
+      in_header: mystyle.tex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# PLAN DE LA CLASE
+
+- Palabras de Bienvenida.
+
+- Presentación de los participantes.
+
+- Revisión del Programa del curso.
+
+- Lectura condiciones de operación AEA.
+
+- Habilitación recursos de comunicación y aprendizaje.
+
+# PROFESORES
+
+**Dr. José Gallardo Matus**  
+<jose.gallardo@pucv.cl>   
+Profesor de genética y genómica aplicada   
+Doctor en Ciencias  
+
+**Dr. María Angélica Rueda**  
+<maria.rueda.c@pucv.cl>  
+Investigadora Postdoctoral   
+Licenciada en Matemáticas  
+Doctor en Ciencias Agropecuarias  
+
+# PRESENTACIÓN DE LOS PARTICIPANTES
+
+```{r, echo=FALSE, out.width = '70%' }
+knitr::include_graphics("Students.png")
+```
+
+
+# PERFIL DEL PARTICIPANTE Y OBJETIVOS DE APRENDIZAJE
+
+**Perfil del participante**  
+Estudiantes, profesionales o graduados de Biología, Biología Marina, Bioquímica, Biotecnología, Microbiología y áreas afines a los recursos biológicos como la agronomía, la acuicultura, las ciencias veterinarias u otras.   
+
+**Objetivos de aprendizaje**  
+Al finalizar el curso, los alumnos serán capaces de usar el lenguaje de programación R para: 
+
+1) Realizar análisis exploratorio de datos aplicados a las biociencias. 
+
+2) Aplicar modelos básicos de inferencia estadística y modelamiento predictivo para el análisis de datos en biociencias. 
+
+# REQUISITOS
+
+- **Estadística**: curso aprobado de nivel universitario. 
+
+- **Programación básica con R**: Deseable pero no es excluyente. Alumnos sin experiencia de programación con R deben considerar 4 horas de autoaprendizaje por semana para alcanzar una comprensión avanzada de los objetivos de aprendizaje del curso. 
+
+- **Inglés**: Los software R y Rstudio, y todas las librerías de análisis estadístico que se usarán en el curso solo están disponibles en inglés. Alumnos sin competencias de lectura en inglés no deberían tomar el curso. 
+
+# CONTENIDOS
+
+- Clase 1. Introducción a la Programación con R y Rstudio.  
+- Clase 2. Variables aleatorias continuas y discretas.  
+- Clase 3. Análisis exploratorio de datos con ggplot2.  
+- Clase 4. Manipulación de datos con dplyr.  
+- Clase 5. Inferencia estadística: Pruebas de correlación de pearson y comparación de medias con T-student.  
+- Clase 6. Análisis de varianza y comparación a posteriori (Tukey).  
+- Clase 7. Variables aleatorias categóricas y pruebas no paramétricas: Pruebas de correlación de Spearman, Prueba de Chi-2 para tablas de contingencia, Prueba de Wilcoxon, Prueba de Kruskal Wallis.  
+- Clase 8. Análisis de regresión lineal simple.  
+- Clase 9. Análisis de regresión logística.  
+- Clase 10. Análisis de sobrevivencia o Análisis de regresión lineal múltiple (votación).   
+
+# CONDICIONES DE OPERACIÓN
+
+- **Nombre de la actividad de extensión académica:**  
+CURSO ANÁLISIS DE DATOS CON R PARA BIOCIENCIAS.
+
+- **Resolución:**  
+254/2022.
+
+- **Fecha de ejecución:**  
+INICIO: 09/01/2022  
+TÉRMINO: 26/01/2022  
+
+- **Consultas, sugerencias y reclamos del curso:**
+<genomica.aplicada@pucv.cl>  
+<oct@pucv.cl>  
+
+# RECURSOS DE APRENDIZAJE Y COMUNICACIÓN
+
+- **Repositorio**: Todo el material disponible en Google Drive.
+
+- **Comunicación**: Foro de preguntas por SLACK.
+
+- **Material docente**: Diapositivas de clases, videos, guías de aprendizaje y códigos de programación para el análisis de datos con R.
+
+- **R y Rstudio**: Acceso a Posit.cloud por 2 meses.
+
+# CERTIFICADO DE PARTICIPACIÓN
+
+Se entregará certificación de participación del curso a los alumnos que cumplan con alguno de los siguientes requisitos:
+
+**Asistencia a clases**: 80%, 8 de 10 clases.  
+
+**Tareas**: Realización satisfactoria del 80% de las tareas del curso 1 tarea por día (8 de 10).
+
+# DUDAS O CONSULTAS
+
+```{r, echo=FALSE, out.width = '50%' }
+knitr::include_graphics("Questions.png")
+```
+
